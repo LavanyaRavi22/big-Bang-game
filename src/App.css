@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*-------Game Title-------*/
+.gameTitle {
+  text-align:center;
+  font-size:200%;
+}
+
+.chooseWeapon {
+  text-align:center;
+  font-size:150%;
+}
+
+.rpsls{
+  text-align:center;
+  font-size:110%;
+}
+
+.bang{
+  color:#D40000;
+  text-shadow:1px 1px black;
+  font-size:180%;
+}
+
+/*------Image Size---------*/
+html,body {
+  width:100%;
+  height:100%;
+  background-color:#E5AE00;
+}
+
+.imageSection{
+  width:100%;
+  margin:0 auto;
+  text-align:center;
+}
+
+.imageSize {
+  /*width:150px;*/
+  width:10%;
+  padding:3%;
+}
+
+/*------Game Section------*/
+.gameSection {
+  width:100%;
+  margin:0 auto;
+  text-align:center;
+}
+
+.game {
+  /*width:45%;*/
+  margin:0 auto;
+  display:inline;
+}
+
+.imageSizeDiv1 {
+  width:10%;
+  height:70%;
+}
+
+.gameSection p {
+  display:inline;
+  padding:4%;
+}
+
+
+.imageSizeDiv2 {
+  width:10%;
+  height:70%;
+}
+
+/*------Score Section--------*/
+.scoreSection{
+  text-align:center;
+  padding-top:1%;
+  font-size:120%;
+}
+
+/*-----Bazinga--------*/
+.bazinga {
+  position:absolute;
+  width:13%;
+  left:44%;
+  display:none;
+}
