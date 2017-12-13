@@ -65,7 +65,16 @@ html,body {
 .imageSize {
   /*width:150px;*/
   width:10%;
-  padding:3%;
+  margin:3%;
+  border-radius:50%;
+}
+
+.imageSize:hover {
+  box-shadow: 0 0 100px white;
+}
+
+.imageSize:hover {
+  cursor: pointer;
 }
 
 /*------Game Section------*/
@@ -84,6 +93,8 @@ html,body {
 .imageSizeDiv1 {
   width:10%;
   height:70%;
+  border-radius:50%;
+  border:2px solid white;
 }
 
 .gameSection p {
@@ -95,6 +106,8 @@ html,body {
 .imageSizeDiv2 {
   width:10%;
   height:70%;
+  border-radius:50%;
+  border:2px solid white;
 }
 
 /*------Score Section--------*/
@@ -110,4 +123,106 @@ html,body {
   width:13%;
   left:44%;
   display:none;
+}
+
+.displayIt {
+  display:inline;
+}
+
+/*----Reset It--------*/
+.resetIt{
+  border:2px solid red;
+  border-radius:0;
+  font-size:120%;
+  display:block;
+  margin:0 auto;
+  margin-top:1%;
+  width:auto;
+}
+
+.resetDiv{
+  width:100%;
+}
+
+.winningStatement{
+  display:block;
+  font-size:150%;
+  color:white;
+  text-shadow:1px 1px black;
+}
+
+/*------Media Queries------*/
+
+@media screen and (max-width: 599px) and (min-width:450px){
+  .imageSize {
+    /*width:150px;*/
+    width:17%;
+    margin:3%;
+    border-radius:50%;
+  }
+
+}
+
+@media screen and (max-width: 449px){
+  .imageSize {
+    /*width:150px;*/
+    width:20%;
+    margin:3%;
+    border-radius:50%;
+  }
+
+  .gameTitle {
+    text-align:center;
+    font-size:150%;
+  }
+
+  .chooseWeapon {
+    text-align:center;
+    font-size:120%;
+  }
+
+  .rpsls{
+    text-align:center;
+    font-size:100%;
+  }
+
+  .bang{
+    color:#D40000;
+    text-shadow:1px 1px black;
+    font-size:150%;
+  }
+
+  .imageSizeDiv1 {
+    width:18%;
+    height:70%;
+    border-radius:50%;
+    border:2px solid white;
+  }
+
+  .imageSizeDiv2 {
+    width:18%;
+    height:70%;
+    border-radius:50%;
+    border:2px solid white;
+  }
+
+  .bazinga {
+    position:absolute;
+    width:18%;
+    left:42%;
+    display:none;
+  }
+
+  .displayIt {
+    display:inline;
+  }
+
+  .resetIt{
+    font-size:80%;
+  }
+
+  .winningStatement{
+    font-size:110%;
+  }
+
 }
